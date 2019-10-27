@@ -6,6 +6,7 @@
     <title>Attempt with guidance</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="main.js"></script>
+    <script src="pikachu.js"></script>
 </head>
 
 <body>
@@ -13,12 +14,14 @@
     <div class="cat">
     </div>
     <div class="dummy">
-        <span>This is me trying to change colors!</span>
+        <span id="title" onclick="thisText();">This is me trying to change colors!</span>
         <div class="btn-wrapper">
-            <button onclick="document.body.style.backgroundColor = '#7EB2DD';">Cobalt Blue</button>
-            <button onclick="document.body.style.backgroundColor = '#445E93';">Queen Blue</button>
-            <button onclick="document.body.style.backgroundColor = '#DADDD8';">Gainsboro</button>
+            <button onclick="onCobalt();">Cobalt Blue</button>
+            <button onclick="onQueen();">Queen Blue</button>
+            <button onclick="onGrey();">Gainsboro</button>
         </div>
+
+        
     </div>
 
 
