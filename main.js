@@ -21,3 +21,12 @@ function thisText() {
 function random() {
 	return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
+
+function dynamicFont() {
+	document.getElementById('title').style.fontSize = "100px";
+}
+
+function backNormal() {
+	document.getElementById('title').style.fontSize = "60px";
+	
+}

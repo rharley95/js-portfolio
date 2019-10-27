@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 
+body {
+    margin: 0;
+}
 
 .container {
     display: flex;
@@ -9,19 +13,47 @@
     top: 0;
 }
 
+nav {
+    border: 1px #ccc solid;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    font-family: 'Staatliches',
+    cursive;
+
+}
+
+nav li{
+    list-style: none;
+}
 
 .dummy{
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 60px;
     justify-content: center;
     margin-top: 300px;
+    transition: font-size 2s;
 }
 
+.dummy span {
+    font-family: 'Staatliches',
+    cursive;
+    cursor: pointer;
+}
+
+.btn-wrapper-2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 .btn-wrapper {
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 90px;
 }
 
 button {
@@ -32,4 +64,55 @@ button {
     background-color: white;
     border: #B7CE63 solid 1px;
     border-radius: 5px;
+}
+
+.tiny {
+    font-style: italic;
+    font-size: 10px;
+}
+.tiny-1 {
+    font-style: bold;
+    font-size: 16px;
+}
+
+.reason {
+    margin-top: 40px;
+    width: 600px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 16px;
+    display: block;
+}
+
+.scroller {
+    margin-top: 100px;
+}
+
+.scroll-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 700px;
+}
+
+
+.slide:nth-child(1) {
+    background: #fddfdf;
+}
+
+.slide:nth-child(2) {
+    background: #fcf7de;
+}
+
+.slide:nth-child(3) {
+    background: #defde0;
+}
+
+.slide:nth-child(4) {
+    background: #def3fd;
+}
+
+.slide:nth-child(5) {
+    background: #f0defd;
 }

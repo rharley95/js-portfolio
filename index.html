@@ -7,18 +7,59 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="main.js"></script>
     <script src="pikachu.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
 </head>
 
 <body>
 
-    <div class="cat">
-    </div>
+    <nav>
+        <ul>
+            <li>Welcome to the Javascript Portfolio!</li>
+        </ul>
+    </nav>
+
     <div class="dummy">
         <span id="title" onclick="thisText();">This is me trying to change colors!</span>
+        <p class="tiny">(For a surprise type "pikachu" anywhere)</p>
         <div class="btn-wrapper">
             <button onclick="onCobalt();">Cobalt Blue</button>
             <button onclick="onQueen();">Queen Blue</button>
             <button onclick="onGrey();">Gainsboro</button>
+        </div>
+
+        <div class="btn-wrapper-2">
+            <span class="sub-title">Here's some functionality to change the font-size</span>
+            <button onclick="dynamicFont();">BIG TEXT</button>
+            <button onclick="backNormal();">Normal</button>
+        </div>
+
+
+        <div class="scroller">
+            <span class="sub-title">Working on the scroller for this portfolio:</span>
+            <div class="scroll-box">
+                <div class="slide">
+                    <span>Slide 1</span>
+                </div>
+                <div class="slide">
+                    <span>Slide 2</span>
+                </div>
+                <div class="slide">
+                    <span>Slide 3</span>
+                </div>
+                <div class="slide">
+                    <span>Slide 4</span>
+                </div>
+                <div class="slide">
+                    <span>Slide 5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="reason">
+            <p class="tiny-1">( I'm still working on making this a good front-end based
+                portfolio, I attempted to work on both of my proposals. Nevertheless,
+                I need a library to work on a horizontal scroll, or so has my research come to a conclusion. )</p>
         </div>
 
         
